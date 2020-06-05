@@ -43,7 +43,7 @@ public class AverageOfSelectedNumbers {
     avgOpt.ifPresent(avg::set);
 
     String numberType = printNegatives ? "negative" : "positive";
-    System.out.println("average of the " + numberType + " numbers: " + avg);
+    System.out.printf("average of the %s numbers: %.2f", numberType, avg.get());
   }
 
   public static Integer tryParse(String text) {
