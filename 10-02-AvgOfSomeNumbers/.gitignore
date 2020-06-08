@@ -2,7 +2,6 @@
 target
 src/test
 .tmcproject.yml
-Part05_10.CardPayments.iml
 pom.xml
 .project
 .classpath
