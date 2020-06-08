@@ -1,6 +1,11 @@
+import java.util.Comparator;
+
 public class Book {
     private final String name;
     private final int advisedAge;
+    public final static Comparator<Book> byAgeThenName 
+        = Comparator.comparing(Book::getAdvisedAge)
+                .thenComparing(Book::getName);
     
     public Book(String name, int age) {
         this.name = name;
