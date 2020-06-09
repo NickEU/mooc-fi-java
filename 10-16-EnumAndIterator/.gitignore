@@ -1,0 +1,8 @@
+.idea
+target
+src/test
+.tmcproject.yml
+pom.xml
+.project
+.classpath
+.settings
