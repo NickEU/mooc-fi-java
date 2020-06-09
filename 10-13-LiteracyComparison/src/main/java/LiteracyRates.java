@@ -29,8 +29,9 @@ public class LiteracyRates implements Comparable<LiteracyRates> {
 
     @Override
     public int compareTo(LiteracyRates o) {
-        double difference = this.getLiteracyPercent() - o.getLiteracyPercent();
-        return difference < 0 ? -1 : (int) Math.ceil(difference);
+//        double difference = this.getLiteracyPercent() - o.getLiteracyPercent();
+//        return difference < 0 ? -1 : (int) Math.ceil(difference);
+          return Double.compare(this.getLiteracyPercent(), o.getLiteracyPercent());
     }
 
     @Override
