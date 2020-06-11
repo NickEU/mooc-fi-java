@@ -1,0 +1,9 @@
+.idea
+target
+src/test
+.tmcproject.yml
+Part11_12.SensorsAndTemperature.iml
+pom.xml
+.project
+.classpath
+.settings
